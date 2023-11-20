@@ -2,7 +2,7 @@ import { IsNotEmpty, IsUUID } from 'class-validator'
 import { Type } from 'class-transformer'
 import { ApiProperty } from '@nestjs/swagger'
 
-export class GetOneDto {
+export class GetEditDeleteOneDto {
 	@IsUUID()
 	@IsNotEmpty()
 	@Type(() => String)

@@ -1,4 +1,4 @@
-import { GetOneDto } from '../../../crud/dto/getOne.dto'
+import { GetEditDeleteOneDto } from '../../../crud/dto/getEditDeleteOne.dto'
 
-export class GetOneGraphDto extends GetOneDto {
+export class GetEditDeleteOneGraphDto extends GetEditDeleteOneDto {
 }
