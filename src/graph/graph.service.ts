@@ -1,9 +1,8 @@
-import { HttpException, HttpStatus, Injectable } from '@nestjs/common'
-import { CreateGraphDto } from './dto/create-graph.dto'
-import { UpdateGraphDto } from './dto/update-graph.dto'
-import { PrismaService } from '../prisma.service'
-import { GetAllGraphDto } from './dto/getAll-graph.dto'
-import { Prisma } from '@prisma/client'
+import {HttpException, HttpStatus, Injectable} from '@nestjs/common'
+import {CreateGraphDto} from './dto/create-graph.dto'
+import {UpdateGraphDto} from './dto/update-graph.dto'
+import {PrismaService} from '../prisma.service'
+import {GetAllGraphDto} from './dto/getAll-graph.dto'
 
 @Injectable()
 export class GraphService {
