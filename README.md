@@ -1,4 +1,4 @@
-# Graphs visualization system
+# Graph visualization system
 
 В данном репозитории представлена Back-End часть курсовой.
 
